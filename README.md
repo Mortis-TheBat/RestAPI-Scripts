@@ -23,3 +23,7 @@
 2.   Please check if Content search results are as desired as it is possible to delete all      
      organisation mailboxes accidentally                                                        
 3.   I have intentially commented delete option to prevent accidental deletes   
+
+The script takes user imput and works a lot on taking different date formats that a user might input. Based on provided 
+search it creates a content search, starts the content search, waits for 120 seconds for it to finish and eventually "soft 
+deletes" all emails with specified criteria.  
